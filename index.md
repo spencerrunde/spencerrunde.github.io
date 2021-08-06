@@ -1,4 +1,4 @@
-# CS 499 ePortfolio: MEAN datatable with CRUD functionality
+### CS 499 ePortfolio: MEAN datatable with CRUD functionality
 <hr>
 
 ### Professional Self-Assessment
