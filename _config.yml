@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: Welcome to Spencer Runde's ePortfolio!
 description: This ePortfolio will be used to host my CS Capstone project.
+
+markdown: CommonMarkGhPages
