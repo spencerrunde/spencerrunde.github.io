@@ -13,7 +13,7 @@
 #### Artifact Narratives
 <p> You can find the narrative for each enhancement embedded within collapsible markdown below in order to prevent the page from becoming too cluttered. </p>
 
-<details><p><summary><strong> Narrative 1, Software design and engineering </strong></summary></p>
+<p><details><summary><strong> Narrative 1, Software design and engineering </strong></summary></p>
   <p><strong> Briefly describe the artifact. What is it? When was it created? </strong></p>
   <p> The artifact that I am enhancing is the final project from CS-340, Client/Server development. This project rendered a dashboard program, which displayed a data table populated with data pulled from a MongoDB database. The language used for this program was Python, and it made use of several python libraries, such as pymongo for database interaction. A simple class containing Create, Read, Update, and Delete methods was imported into the main app for the sake of modularity and reusability. It has been a little less than a year since I initially created this program. </p>
 
@@ -27,7 +27,7 @@
    <p> One thing that I discovered was the value of using Postman to test API routes. I wanted to view the enhanced artifact with data actively being populated within the table, so I implemented a portion of the database enhancement early.  Postman allowed me to make sure that all of these routes were working properly, confirming that none of my issues were originating from my API routing. Console logging with another huge help during this process, as I used this to confirm that the front end of the program was successfully receiving the data from MongoDB before I had created the table module. This is also one of the first times that I have undertook a large coding challenge such as this without a guide of some sort to direct me. Not knowing where to start exactly was a challenge, but I conquered this by splitting the program up into several smaller parts and working on them one at a time. A large amount of time was spent doing research and studying documentation for the languages and libraries I was making use of, trying to understand why certain errors were occurring and what the most optimal way to fix them was. </p>
 </details>
 
-<details><p><summary><strong> Narrative 2, Algorithms and data structure </strong></summary></p>
+<p><details><summary><strong> Narrative 2, Algorithms and data structure </strong></summary></p>
    <p><strong> Briefly describe the artifact. What is it? When was it created? </strong></p>
    <p> For this milestone, I am again enhancing my final project from the Client/Server Development class, CS-340. This project rendered a simple dashboard, which displayed a table populated with data from a database. Users did not have the ability to do anything other than view the data on the table, but presumably Create, Update, and Delete methods would have been implemented in the future, as these unused methods were included in an imported class. There was no security on this database other than hardcoded MongoDB authorization values, which meant that anyone would be able to perform CRUD operations on the data within the mongo database when the application was pushed onto a server and made live. </p>
 
@@ -41,7 +41,7 @@
    <p> The biggest challenge that I faced while working on this enhancement was actually implementing the authentication itself. “Simulating” the login and register methods and routes on the backend was easy enough, but having the frontend work together with the backend was much more difficult. In a previous project, I had made use of the Passport library as a middleware to aid in this process, but I wanted to try a different approach to expand my skills and learn about other methods of accomplishing this. In this project, I created a function that verifies a user’s token as a valid token. This function is called on every route on the backend, which means that without a proper token, disallowed actors cannot access any pages that make use of those routes. Once a user has logged in on the frontend, their token is intercepted using an HttpInterceptor, which then sets their token into the header of their request, which allows the verifyToken function to check it and allow them access. </p>
 </details>
 
-<details><p><summary><strong> Narrative 3, Databases </strong></summary></p>
+<p><details><summary><strong> Narrative 3, Databases </strong></summary></p>
    <p><strong> Briefly describe the artifact. What is it? When was it created? </strong></p>
    <p> Finally, the database portion of my artifact was also created for the final project of Client/Server Development, CS-340. To start, Create, Read, Update, and Delete methods were defined in a separate python file, which was then imported into the main Jupyter Notebook ipynb file. Only the Read method was actually implemented, as it was called in order to populate the interactive data table with animal shelter outcome records from a MongoDB database. Since the Create, Update, and Delete methods were never actually used by the program, I decided to have my enhancement focus on implementing them properly. This ended up being much more complex, as I was not simply just connected to a mongo instance and then having the plotly dash library automatically generate a table for me. </p>
 
