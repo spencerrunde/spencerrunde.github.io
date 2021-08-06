@@ -4,3 +4,5 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Welcome to Spencer Runde's ePortfolio!
 description: This ePortfolio will be used to host my CS Capstone project.
+
+theme: jekyll-theme-slate
