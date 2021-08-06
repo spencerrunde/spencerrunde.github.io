@@ -12,7 +12,9 @@ You can check out the repo for my enhanced artifact [here.](https://github.com/s
 ### Artifact Narratives
 You can find the narrative for each enhancement embedded within collapsible markdown below in order to prevent the page from becoming too cluttered. 
 
-<details><summary><strong> Narrative 1, Software design and engineering </strong></summary></details>
+<details><summary><strong> Narrative 1, Software design and engineering </strong></summary>
+Test text
+</details>
 
 <details><summary><strong> Narrative 2, Algorithms and data structure </strong></summary></details>
 
